@@ -46,7 +46,7 @@ namespace CarLotSimulator
             lot.ShowDriveableCars();
 
             // Final report
-            Console.WriteLine($"\n Total Cars Created: {Car.numberOfCars}");
+            Console.WriteLine($"\n Total Cars Created: {CarLot.numberOfCars}");
         }
     }
 }

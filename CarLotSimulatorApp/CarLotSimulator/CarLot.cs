@@ -1,10 +1,13 @@
-using System;
+using System; 
 using System.Collections.Generic;
 
 namespace CarLotSimulator
 {
     public class CarLot
     {
+        // Static field to track the number of cars created
+        public static int numberOfCars = 0;
+
         public List<Car> Cars { get; set; } = new List<Car>();
 
         public void AddCar(Car car)
@@ -42,5 +45,4 @@ namespace CarLotSimulator
             }
         }
     }
-
-}    
+}
